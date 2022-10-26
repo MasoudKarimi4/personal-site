@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.App-header {
+  
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.icon {
+  width:40px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Intro-Text {
+  outline-width: 1px;
+  outline-offset: 15px;
+}
+
+.Name {
+  font-size: 35px;  
+}
+.text{
+  font-size: 20px
+}
+
+.Bio {
+    margin:auto;
+  text-align: center;
+  width:400px;
+  outline-width: 1px;
+
+}
+
+.bioText{
+  font-size: 20px;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.Bio > .save {
+  position: absolute;
+  top: 1080px;
+}

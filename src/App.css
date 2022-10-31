@@ -46,6 +46,10 @@
 .bioText{
   font-size: 20px;
   outline: solid;
+  color:black; 
+}
+.BioBackground {
+
 }
 
 .reveal{
@@ -62,4 +66,5 @@
 .Bio > .save {
   position: absolute;
   top: 1080px;
+  
 }

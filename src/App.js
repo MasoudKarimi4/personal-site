@@ -7,19 +7,11 @@ import './icons.js'
 class MovingText extends React.Component {
   render () {
     return (
-      
 
     <section className ="BioBackground">
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <div className ='Bio'>
-        <h1>👋Hi, my name is Masoud!</h1>
+        <h1 className='bioText' >👋Hi, my name is Masoud!</h1>
         <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa. </p>
-
-
-
       </div>
     </section> )
   };
@@ -37,7 +29,6 @@ class SkillIcons extends React.Component {
       )
   }
 }
-
 
 function App() {
   return (

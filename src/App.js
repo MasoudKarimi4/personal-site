@@ -1,8 +1,19 @@
 //import logo from './logo.svg';
+import {NavBar} from './navbar.js'
 import './App.css';
+import './navstyle.css'
 import { TypeAnimation } from 'react-type-animation'
 import React from 'react';
 import './icons.js'
+
+/*class Navigator extends React.Component {
+  render () {
+    return (
+      <ul>
+   
+    )
+  }
+} */
 
 class MovingText extends React.Component {
   render () {
@@ -36,6 +47,8 @@ function App() {
   return (
     <div className="App">
 
+
+      < NavBar /> 
       <header className="App-header">
         <div className="Intro-Text">
 

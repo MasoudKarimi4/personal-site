@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import {NavBar} from './navbar.js'
+import {Projects} from './projects.js'
 import './App.css';
 import './navstyle.css'
 import { TypeAnimation } from 'react-type-animation'
@@ -22,9 +23,11 @@ class MovingText extends React.Component {
     <section className ="BioBackground">
       <div className ='Bio'>
         <h1 className='bioText' >👋Hi, my name is Masoud!</h1>
-        <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa. </p>
+        <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa.
+        <br></br><br></br>I have experience working with Python, HTML, CSS and JavaScript </p>
+        
         <hr id ="line"></hr>
-      </div>
+      </div> 
       <hr></hr>
     </section> )
   };
@@ -61,12 +64,12 @@ function App() {
         
         <SkillIcons />
         
-        
-       
         </div>
       
       </header>
       <MovingText className="secondText"/>
+
+      <Projects />
     </div>
   )};
 

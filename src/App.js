@@ -32,7 +32,7 @@ class MovingText extends React.Component {
     </section> )
   };
 };
-
+// Skills
 class SkillIcons extends React.Component {
   render () {
       return (

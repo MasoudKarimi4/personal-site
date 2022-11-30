@@ -26,7 +26,6 @@ class MovingText extends React.Component {
         <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa.
         <br></br><br></br>I have experience working with Python, HTML, CSS and JavaScript </p>
         
-        <hr id ="line"></hr>
       </div> 
       <hr></hr>
     </section> )
@@ -48,7 +47,7 @@ class SkillIcons extends React.Component {
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" href="#about">
 
 
       < NavBar /> 
@@ -57,11 +56,8 @@ function App() {
 
         <h1 className='Name'> Masoud Karimi </h1>
         
-        
-
         <TypeAnimation className ='Intro-Text' 
         sequence={['Computer Science Student at the University of Ottawa']}/>
-        
         <SkillIcons />
         
         </div>

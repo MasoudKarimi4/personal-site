@@ -47,7 +47,7 @@ class SkillIcons extends React.Component {
 
 function App() {
   return (
-    <div className="App" href="#about">
+    <div className="App" href="about">
 
 
       < NavBar /> 

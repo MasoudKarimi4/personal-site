@@ -14,8 +14,9 @@ class MovingText extends React.Component {
     return (
     <section className ="BioBackground" href='#about'>
       <div className ='Bio'>
+      <img className="selfpicture" src="https://i.imgur.com/yjTmZ50.png"/>
         <h1 className='bioText' >👋Hi, my name is Masoud!</h1>
-        <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa.
+        <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa. Currently enrolled in Intro to Computing, Calculus I and Intro to Linear Algebra 
         <br></br><br></br>I have experience working with Python, HTML, CSS and JavaScript </p>
       </div> 
       <hr></hr>

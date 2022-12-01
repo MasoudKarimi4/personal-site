@@ -9,9 +9,7 @@ class NavBar extends React.Component {
             <li><a class="active" href="#home">Header</a></li>
             <li><a class="active" href="#about">About me</a></li>
             <li><a class="active" href="#projects">Projects</a></li>
-            <li><a class="active" href="#resume">Resume</a></li>
             <li><a class="active" href="#contact">Contact</a></li>
-
             </ul> 
             </div>
         )

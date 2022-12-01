@@ -45,7 +45,7 @@
 }
 
 .Bio {
-  margin: 100px;
+  margin: 10px;
   text-align: left;
   width:400px;
   outline-width: 1px;
@@ -84,4 +84,11 @@
 .icon:hover { 
   transform: scale(1.5); 
   
+}
+.LinkedinPhoto{
+    max-width: 15%;
+    height: auto;
+    width:400px;
+    margin-left: 10px;
+    margin-right: 10px; 
 }

@@ -13,9 +13,10 @@ class MovingText extends React.Component {
   render () {
     return (
     <section className ="BioBackground" href='#about'>
-      <div className ='Bio'>
+      <a href="#ads"></a>
+      <div className ='Bio'> 
         <h1 className='bioText' >👋Hi, my name is Masoud!</h1>
-        <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa.
+        <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa. Currently enrolled in Intro to Computing, Calculus I and Intro to Linear Algebra 
         <br></br><br></br>I have experience working with Python, HTML, CSS and JavaScript </p>
       </div> 
       <hr></hr>

@@ -47,20 +47,22 @@
 .Bio {
   margin: 10px;
   text-align: left;
-  width:400px;
+  width:700px;
   outline-width: 1px;
 
 }
 
 .bioText{
-  
+  max-width:100%;
   font-size: 20px;
+  margin-left: 15px;
   
 }
-.secondText {
-
-  background-color: #414375;
-
+.selfpicture{
+  margin: auto;
+  float: right;
+  width: 150px;
+  margin-left: 100px;
 }
 
 .reveal{

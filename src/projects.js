@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Projects Container
+// Projects Container (needs projects?)
 
 class Projects extends React.Component {
     render () {

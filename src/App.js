@@ -16,7 +16,7 @@ class MovingText extends React.Component {
       <a href="#ads"></a>
       <div className ='Bio'> 
         <h1 className='bioText' >👋Hi, my name is Masoud!</h1>
-        <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa. Currently enrolled in Intro to Computing, Calculus I and Intro to Linear Algebra 
+        <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa. Completed a Python introductory course, Calculus I and Linear Algebra. Now enrolled in Java Computing course, Digital Systems, Calculus II and Discrete Math for Computing.
         <br></br><br></br>I have experience working with Python, HTML, CSS and JavaScript </p>
       </div> 
       <hr></hr>

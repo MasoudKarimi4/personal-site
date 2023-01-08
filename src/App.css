@@ -8,6 +8,20 @@
   min-height: 10vh;
 }
 
+@media only screen and (max-width: 150px) {
+  .bioText{
+    display:block;
+    margin: 0 auto;
+    max-width: 25%;
+  }
+  .Bio {
+    margin: 1px;
+    text-align: left;
+    width: 70px;
+    outline-width: 1px;
+  }
+}
+
 #line {
   width: 100%
 }
@@ -46,7 +60,7 @@
 
 .Bio {
   margin: 10px;
-  text-align: left;
+  text-align: center;
   width:700px;
   outline-width: 1px;
 
@@ -55,7 +69,6 @@
 .bioText{
   max-width:100%;
   font-size: 20px;
-  margin-left: 15px;
   
 }
 .selfpicture{

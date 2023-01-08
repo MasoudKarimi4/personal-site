@@ -8,19 +8,6 @@
   min-height: 10vh;
 }
 
-@media only screen and (max-width: 150px) {
-  .bioText{
-    display:block;
-    margin: 0 auto;
-    max-width: 25%;
-  }
-  .Bio {
-    margin: 1px;
-    text-align: left;
-    width: 70px;
-    outline-width: 1px;
-  }
-}
 
 #line {
   width: 100%
@@ -61,22 +48,21 @@
 .Bio {
   margin: 10px;
   text-align: center;
-  width:700px;
-  outline-width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .bioText{
-  max-width:100%;
+  max-width:70%;
   font-size: 20px;
-  
+  text-align: center; 
+  display: flex;
+
 }
-.selfpicture{
-  margin: auto;
-  float: right;
-  width: 150px;
-  margin-left: 100px;
-}
+
 
 .reveal{
   position: relative;
@@ -95,7 +81,6 @@
   
 }
 
-
 .icon:hover { 
   transform: scale(1.5); 
   
@@ -103,7 +88,7 @@
 .LinkedinPhoto{
     max-width: 15%;
     height: auto;
-    width:400px;
+    width:40px;
     margin-left: 10px;
     margin-right: 10px; 
 }

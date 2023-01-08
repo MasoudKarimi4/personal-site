@@ -19,7 +19,6 @@ class MovingText extends React.Component {
         <p className="bioText">I am in my first year of the Honours BSc of Computer Science at the University of Ottawa. Completed a Python introductory course, Calculus I and Linear Algebra. Now enrolled in Java Computing course, Digital Systems, Calculus II and Discrete Math for Computing.
         <br></br><br></br>I have experience working with Python, HTML, CSS and JavaScript </p>
       </div> 
-      <hr></hr>
     </section> )
   };
 };
@@ -42,7 +41,6 @@ function App() {
         </div>
         </header>
         <MovingText className="secondText" href='#about'/>
-        <Projects />
         <Contact />
     </div>
   )};
